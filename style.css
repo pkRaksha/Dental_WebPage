@@ -15,30 +15,18 @@ img
 }
 nav
 {
-    margin:50px;
+    margin:40px;
+    margin-bottom: 0;
 }
 
 .title-image
 {
-    border-radius: 50%;
-    position:relative;
-    left:600px;
-    bottom:300px;
-    width:800px;
-    height:333px;
-    display: inline;
+   border-radius: 50%;
+   width:600px;
+   height:400px;
+}
 
-}
-.main
-{
-    display: inline-block;
-}
-.title-text
-{
-    margin-left:57px;
-   
 
-}
 h1
 {
      font-size: 3rem;
