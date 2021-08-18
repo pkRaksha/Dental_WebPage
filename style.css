@@ -64,3 +64,30 @@ button
     position:relative;
     right:50px;
 }
+
+/*#grad1 {
+    height: 200px;
+   
+    background-image: repeating-linear-gradient( 45deg,rgba(0,102,102,0.8) ,rgba(255,255,255,0.9) 10%, rgba(0,153,153,0.6) 20%);
+  }*/
+  
+  .custom-shape-divider-bottom-1629263067 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1629263067 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 177px;
+}
+
+.custom-shape-divider-bottom-1629263067 .shape-fill {
+    fill: #F2F4F966;
+}
