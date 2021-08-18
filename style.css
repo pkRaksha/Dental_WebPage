@@ -65,11 +65,76 @@ button
     right:50px;
 }
 
-/*#grad1 {
-    height: 200px;
-   
-    background-image: repeating-linear-gradient( 45deg,rgba(0,102,102,0.8) ,rgba(255,255,255,0.9) 10%, rgba(0,153,153,0.6) 20%);
-  }*/
+#grad1 {
+        
+    height:250px;
+    width:65%;
+    background-color: thistle;
+    position: relative;
+    left:100px;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    
+
+
+  }
+  #grad2 {
+        
+    height:250px;
+    width:65%;
+    background-color:seagreen;
+    position: relative;
+    left:300px;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    
+
+  }
+  #grad3 {
+        
+    height:250px;
+    width:65%;
+    background-color:tan;
+    position: relative;
+    left:100px;
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+
+  }
+
+  @keyframes example1 
+  {
+      0%{left:25%;}
+      
+      
+    }
+  @keyframes example2
+   {
+        0%{right:100%;}
+        
+    }
+  
+      @keyframes example3
+      {
+        0%{left:25%;}
+      }
+    
+  .second_page
+  {
+      border-radius: 50%;
+      width:200px;
+      height:200px;
+      position:relative;
+      left:65%;
+      bottom:30%;
+
+  }
   
   .custom-shape-divider-bottom-1629263067 {
     position: absolute;
@@ -90,4 +155,9 @@ button
 
 .custom-shape-divider-bottom-1629263067 .shape-fill {
     fill: #F2F4F966;
+}
+
+.main2
+{
+    background-image: linear-gradient(to bottom right,rgba(0,153,153),rgba(255,255,255),rgba(0,153,153));
 }
